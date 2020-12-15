@@ -4,7 +4,7 @@
 #
 Name     : azure-mgmt-advisor
 Version  : 4.0.0
-Release  : 8
+Release  : 9
 URL      : https://files.pythonhosted.org/packages/45/da/227b284ca332148ca3a4d303992ae455a8d2602b8459bc19586ae337696e/azure-mgmt-advisor-4.0.0.zip
 Source0  : https://files.pythonhosted.org/packages/45/da/227b284ca332148ca3a4d303992ae455a8d2602b8459bc19586ae337696e/azure-mgmt-advisor-4.0.0.zip
 Summary  : Microsoft Azure Advisor Client Library for Python
@@ -75,8 +75,8 @@ echo ----[ mark ]----
 cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :
 echo ----[ mark ]----
 ## Remove excluded files
-rm -f %{buildroot}/usr/lib/python3.9/site-packages/azure/mgmt/__init__.py
-rm -f %{buildroot}/usr/lib/python3.9/site-packages/azure/mgmt/__pycache__/__init__.cpython-38.pyc
+rm -f %{buildroot}/usr/lib/python3*/site-packages/azure/mgmt/__init__.py
+rm -f %{buildroot}/usr/lib/python3*/site-packages/azure/mgmt/__pycache__/__init__.cpython-3*.pyc
 
 %files
 %defattr(-,root,root,-)
