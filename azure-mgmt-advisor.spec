@@ -4,7 +4,7 @@
 #
 Name     : azure-mgmt-advisor
 Version  : 4.0.0
-Release  : 6
+Release  : 7
 URL      : https://files.pythonhosted.org/packages/45/da/227b284ca332148ca3a4d303992ae455a8d2602b8459bc19586ae337696e/azure-mgmt-advisor-4.0.0.zip
 Source0  : https://files.pythonhosted.org/packages/45/da/227b284ca332148ca3a4d303992ae455a8d2602b8459bc19586ae337696e/azure-mgmt-advisor-4.0.0.zip
 Summary  : Microsoft Azure Advisor Client Library for Python
